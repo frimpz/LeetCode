@@ -24,8 +24,6 @@ class LongestConsecutive {
 
         Arrays.sort(nums);
 
-        System.out.println(Arrays.toString(nums));
-
         int counter = 1;
         int longest = 0;
         for(int i=0; i<nums.length-1; i++){
@@ -43,7 +41,6 @@ class LongestConsecutive {
                 counter = 1;
             }
 
-            System.out.println(counter);
         }
 
         if(counter > longest){
@@ -64,11 +61,5 @@ class LongestConsecutive {
         LongestConsecutive ga = new LongestConsecutive();
         // out = ga.longestConsecutive(new int[] {100,4,200,1,3,2});
         //System.out.println(out);
-
-        // out = ga.longestConsecutive(new int[] {0,3,7,2,5,8,4,6,0,1});
-        // System.out.println(out);
-
-        out = ga.longestConsecutive(new int[] {1,2,0,1});
-        System.out.println(out);
     }
 }
