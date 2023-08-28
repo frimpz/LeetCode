@@ -2,6 +2,12 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
 
+
+/*
+* Question needs to be solved in O(N) time, however, sorting takes more than that.
+* Need to used a different approach.
+* */
+
 class LongestConsecutive {
 
     public LongestConsecutive() {}
